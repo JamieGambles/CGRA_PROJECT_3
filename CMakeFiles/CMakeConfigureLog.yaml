@@ -1,0 +1,580 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 11/10/2023 21:32:12.
+      
+      Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\3.26.0-msvc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\3.26.0-msvc3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\3.26.0-msvc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.10
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/3.26.0-msvc3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 11/10/2023 21:32:13.
+      
+      Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\3.26.0-msvc3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\3.26.0-msvc3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\3.26.0-msvc3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.85
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/3.26.0-msvc3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-x8ov3w"
+      binary: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-x8ov3w"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_MODULE_PATH: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/cmake"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-x8ov3w
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b5408.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 11/10/2023 21:32:14.
+        
+        Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-x8ov3w\\cmTC_b5408.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b5408.dir\\Debug\\".
+          Creating directory "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-x8ov3w\\Debug\\".
+          Creating directory "cmTC_b5408.dir\\Debug\\cmTC_b5408.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b5408.dir\\Debug\\cmTC_b5408.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b5408.dir\\Debug\\\\" /Fd"cmTC_b5408.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b5408.dir\\Debug\\\\" /Fd"cmTC_b5408.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-x8ov3w\\Debug\\cmTC_b5408.exe" /INCREMENTAL /ILK:"cmTC_b5408.dir\\Debug\\cmTC_b5408.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-x8ov3w/Debug/cmTC_b5408.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-x8ov3w/Debug/cmTC_b5408.lib" /MACHINE:X64  /machine:x64 cmTC_b5408.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_b5408.vcxproj -> E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-x8ov3w\\Debug\\cmTC_b5408.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b5408.dir\\Debug\\cmTC_b5408.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b5408.dir\\Debug\\cmTC_b5408.tlog\\cmTC_b5408.lastbuildstate".
+        Done Building Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-x8ov3w\\cmTC_b5408.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.84
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-jxs77y"
+      binary: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-jxs77y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/cmake"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-jxs77y
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e2486.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 11/10/2023 21:32:15.
+        
+        Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-jxs77y\\cmTC_e2486.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e2486.dir\\Debug\\".
+          Creating directory "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-jxs77y\\Debug\\".
+          Creating directory "cmTC_e2486.dir\\Debug\\cmTC_e2486.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e2486.dir\\Debug\\cmTC_e2486.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2486.dir\\Debug\\\\" /Fd"cmTC_e2486.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2486.dir\\Debug\\\\" /Fd"cmTC_e2486.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-jxs77y\\Debug\\cmTC_e2486.exe" /INCREMENTAL /ILK:"cmTC_e2486.dir\\Debug\\cmTC_e2486.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-jxs77y/Debug/cmTC_e2486.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-jxs77y/Debug/cmTC_e2486.lib" /MACHINE:X64  /machine:x64 cmTC_e2486.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e2486.vcxproj -> E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-jxs77y\\Debug\\cmTC_e2486.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e2486.dir\\Debug\\cmTC_e2486.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e2486.dir\\Debug\\cmTC_e2486.tlog\\cmTC_e2486.lastbuildstate".
+        Done Building Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-jxs77y\\cmTC_e2486.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.83
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:48 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-jdovoq"
+      binary: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-jdovoq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/cmake"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-jdovoq
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_82af8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 11/10/2023 21:32:16.
+        
+        Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-jdovoq\\cmTC_82af8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_82af8.dir\\Debug\\".
+          Creating directory "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-jdovoq\\Debug\\".
+          Creating directory "cmTC_82af8.dir\\Debug\\cmTC_82af8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_82af8.dir\\Debug\\cmTC_82af8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_82af8.dir\\Debug\\\\" /Fd"cmTC_82af8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-jdovoq\\OpenMPTryFlag.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          OpenMPTryFlag.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_82af8.dir\\Debug\\\\" /Fd"cmTC_82af8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-jdovoq\\OpenMPTryFlag.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-jdovoq\\Debug\\cmTC_82af8.exe" /INCREMENTAL /ILK:"cmTC_82af8.dir\\Debug\\cmTC_82af8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-jdovoq/Debug/cmTC_82af8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-jdovoq/Debug/cmTC_82af8.lib" /MACHINE:X64  /machine:x64 cmTC_82af8.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_82af8.vcxproj -> E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-jdovoq\\Debug\\cmTC_82af8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_82af8.dir\\Debug\\cmTC_82af8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_82af8.dir\\Debug\\cmTC_82af8.tlog\\cmTC_82af8.lastbuildstate".
+        Done Building Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-jdovoq\\cmTC_82af8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.83
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:48 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-84284w"
+      binary: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-84284w"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_MODULE_PATH: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/cmake"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-84284w
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e2980.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 11/10/2023 21:32:18.
+        
+        Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-84284w\\cmTC_e2980.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e2980.dir\\Debug\\".
+          Creating directory "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-84284w\\Debug\\".
+          Creating directory "cmTC_e2980.dir\\Debug\\cmTC_e2980.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e2980.dir\\Debug\\cmTC_e2980.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_e2980.dir\\Debug\\\\" /Fd"cmTC_e2980.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-84284w\\OpenMPTryFlag.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          OpenMPTryFlag.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_e2980.dir\\Debug\\\\" /Fd"cmTC_e2980.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-84284w\\OpenMPTryFlag.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-84284w\\Debug\\cmTC_e2980.exe" /INCREMENTAL /ILK:"cmTC_e2980.dir\\Debug\\cmTC_e2980.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-84284w/Debug/cmTC_e2980.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-84284w/Debug/cmTC_e2980.lib" /MACHINE:X64  /machine:x64 cmTC_e2980.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_e2980.vcxproj -> E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-84284w\\Debug\\cmTC_e2980.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e2980.dir\\Debug\\cmTC_e2980.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e2980.dir\\Debug\\cmTC_e2980.tlog\\cmTC_e2980.lastbuildstate".
+        Done Building Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-84284w\\cmTC_e2980.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.82
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:48 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-3i5zol"
+      binary: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-3i5zol"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/cmake"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-3i5zol
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cae7e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 11/10/2023 21:32:19.
+        
+        Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-3i5zol\\cmTC_cae7e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_cae7e.dir\\Debug\\".
+          Creating directory "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-3i5zol\\Debug\\".
+          Creating directory "cmTC_cae7e.dir\\Debug\\cmTC_cae7e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_cae7e.dir\\Debug\\cmTC_cae7e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_cae7e.dir\\Debug\\\\" /Fd"cmTC_cae7e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-3i5zol\\OpenMPCheckVersion.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          OpenMPCheckVersion.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_cae7e.dir\\Debug\\\\" /Fd"cmTC_cae7e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-3i5zol\\OpenMPCheckVersion.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-3i5zol\\Debug\\cmTC_cae7e.exe" /INCREMENTAL /ILK:"cmTC_cae7e.dir\\Debug\\cmTC_cae7e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-3i5zol/Debug/cmTC_cae7e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-3i5zol/Debug/cmTC_cae7e.lib" /MACHINE:X64  /machine:x64 cmTC_cae7e.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_cae7e.vcxproj -> E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-3i5zol\\Debug\\cmTC_cae7e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_cae7e.dir\\Debug\\cmTC_cae7e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_cae7e.dir\\Debug\\cmTC_cae7e.tlog\\cmTC_cae7e.lastbuildstate".
+        Done Building Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-3i5zol\\cmTC_cae7e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.87
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:48 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-0juxfe"
+      binary: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-0juxfe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_MODULE_PATH: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/cmake"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-0juxfe
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ecd3f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 11/10/2023 21:32:20.
+        
+        Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-0juxfe\\cmTC_ecd3f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ecd3f.dir\\Debug\\".
+          Creating directory "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-0juxfe\\Debug\\".
+          Creating directory "cmTC_ecd3f.dir\\Debug\\cmTC_ecd3f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ecd3f.dir\\Debug\\cmTC_ecd3f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_ecd3f.dir\\Debug\\\\" /Fd"cmTC_ecd3f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-0juxfe\\OpenMPCheckVersion.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          OpenMPCheckVersion.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_ecd3f.dir\\Debug\\\\" /Fd"cmTC_ecd3f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-0juxfe\\OpenMPCheckVersion.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-0juxfe\\Debug\\cmTC_ecd3f.exe" /INCREMENTAL /ILK:"cmTC_ecd3f.dir\\Debug\\cmTC_ecd3f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-0juxfe/Debug/cmTC_ecd3f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-0juxfe/Debug/cmTC_ecd3f.lib" /MACHINE:X64  /machine:x64 cmTC_ecd3f.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_ecd3f.vcxproj -> E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-0juxfe\\Debug\\cmTC_ecd3f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ecd3f.dir\\Debug\\cmTC_ecd3f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ecd3f.dir\\Debug\\cmTC_ecd3f.tlog\\cmTC_ecd3f.lastbuildstate".
+        Done Building Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-0juxfe\\cmTC_ecd3f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.85
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "ext/glfw/CMakeLists.txt:95 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-yat58j"
+      binary: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-yat58j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -openmp"
+      CMAKE_MODULE_PATH: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-yat58j
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_767f3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 11/10/2023 21:32:21.
+        
+        Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-yat58j\\cmTC_767f3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_767f3.dir\\Debug\\".
+          Creating directory "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-yat58j\\Debug\\".
+          Creating directory "cmTC_767f3.dir\\Debug\\cmTC_767f3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_767f3.dir\\Debug\\cmTC_767f3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_767f3.dir\\Debug\\\\" /Fd"cmTC_767f3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-yat58j\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_767f3.dir\\Debug\\\\" /Fd"cmTC_767f3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-yat58j\\src.c"
+        E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-yat58j\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-yat58j\\cmTC_767f3.vcxproj]
+        Done Building Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-yat58j\\cmTC_767f3.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-yat58j\\cmTC_767f3.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-yat58j\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-yat58j\\cmTC_767f3.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.52
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "ext/glfw/CMakeLists.txt:95 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-6v77qz"
+      binary: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-6v77qz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -openmp"
+      CMAKE_MODULE_PATH: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-6v77qz
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a9672.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 11/10/2023 21:32:22.
+        
+        Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-6v77qz\\cmTC_a9672.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a9672.dir\\Debug\\".
+          Creating directory "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-6v77qz\\Debug\\".
+          Creating directory "cmTC_a9672.dir\\Debug\\cmTC_a9672.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a9672.dir\\Debug\\cmTC_a9672.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_a9672.dir\\Debug\\\\" /Fd"cmTC_a9672.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-6v77qz\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_a9672.dir\\Debug\\\\" /Fd"cmTC_a9672.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-6v77qz\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-6v77qz\\Debug\\cmTC_a9672.exe" /INCREMENTAL /ILK:"cmTC_a9672.dir\\Debug\\cmTC_a9672.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-6v77qz/Debug/cmTC_a9672.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-6v77qz/Debug/cmTC_a9672.lib" /MACHINE:X64  /machine:x64 cmTC_a9672.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-6v77qz\\cmTC_a9672.vcxproj]
+        Done Building Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-6v77qz\\cmTC_a9672.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-6v77qz\\cmTC_a9672.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-6v77qz\\cmTC_a9672.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.64
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "ext/glfw/CMakeLists.txt:95 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-9m7juu"
+      binary: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-9m7juu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -openmp"
+      CMAKE_MODULE_PATH: "E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-9m7juu
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_40978.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 11/10/2023 21:32:23.
+        
+        Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-9m7juu\\cmTC_40978.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_40978.dir\\Debug\\".
+          Creating directory "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-9m7juu\\Debug\\".
+          Creating directory "cmTC_40978.dir\\Debug\\cmTC_40978.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_40978.dir\\Debug\\cmTC_40978.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_40978.dir\\Debug\\\\" /Fd"cmTC_40978.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-9m7juu\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_40978.dir\\Debug\\\\" /Fd"cmTC_40978.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-9m7juu\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-9m7juu\\Debug\\cmTC_40978.exe" /INCREMENTAL /ILK:"cmTC_40978.dir\\Debug\\cmTC_40978.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-9m7juu/Debug/cmTC_40978.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/school/University/GDipSci/Year3/CGRA350/A3/A3 new/CGRA350T12019_Framework/work/CMakeFiles/CMakeScratch/TryCompile-9m7juu/Debug/cmTC_40978.lib" /MACHINE:X64  /machine:x64 cmTC_40978.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-9m7juu\\cmTC_40978.vcxproj]
+        Done Building Project "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-9m7juu\\cmTC_40978.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-9m7juu\\cmTC_40978.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [E:\\school\\University\\GDipSci\\Year3\\CGRA350\\A3\\A3 new\\CGRA350T12019_Framework\\work\\CMakeFiles\\CMakeScratch\\TryCompile-9m7juu\\cmTC_40978.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.62
+        
+      exitCode: 1
+...
